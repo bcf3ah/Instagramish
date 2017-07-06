@@ -14,8 +14,6 @@ public class ParseApp extends Application {
     public void onCreate() {
         super.onCreate();
 
-        String name = "brian";
-
         //Enable us to store data locally
         Parse.enableLocalDatastore(this);
 
