@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InstagramV3</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+</resources>
