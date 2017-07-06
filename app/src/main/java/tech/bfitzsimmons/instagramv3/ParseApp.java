@@ -19,9 +19,9 @@ public class ParseApp extends Application {
 
         //Initialize Parse Server
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-                .applicationId("7568ce85c06814f98dd8756a26e13400da8853c8")
-                .clientKey("fb36a2b3a4712b338f79c78c90ccdf9453ef4c01")
-                .server("http://ec2-34-228-160-88.compute-1.amazonaws.com:80/parse/")
+                .applicationId("APP_ID")
+                .clientKey("CLIENT_KEY")
+                .server("SERVER_URL")
                 .build()
         );
 
